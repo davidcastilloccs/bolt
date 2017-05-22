@@ -1,0 +1,166 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+
+body {
+	padding-top: 51px;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+}
+
+.logo {
+	height: 51px;
+	width: 100px;
+}
+
+.change {
+	color: red !important;
+}
+
+.icon-bar {
+	background-color: red !important;
+}
+
+
+header {
+	height: 80vh;
+	background: url(http://2.bp.blogspot.com/_fv_G2RzQkvQ/SMBFiZ6qVHI/AAAAAAAAA4Q/kiMwMoXmJbU/S730/YARD+FULL+VIEW.JPG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.headingText {
+	text-align: center;
+	/*padding: 150px 25px;*/
+	vertical-align: middle;
+	padding-top: 14.5rem;
+	font-size: relative;
+}
+
+h1 {
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+	text-align: center;
+}
+
+.titulo {
+	font-size: 3.5rem;
+	font-weight: 700;
+	color: red;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.titulito {
+	font-size: 2rem;
+	color: yellow;
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+	vertical-align: middle;
+}
+
+
+
+h2 {
+	margin-bottom: 20px;
+	color: yellow;
+	text-align: center;
+	font-size: 3em;
+}
+
+p {
+	color: black;
+}
+
+#productos {
+	background: black;
+}
+
+.aboutTitle {
+	color: red;
+	text-align: center;
+	font-size: 3em;
+}
+
+.fotos {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+a {
+	color: white;
+}
+
+
+a .botton {
+	text-decoration: none;
+	color: yellow;
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+	list-style: none;
+}
+
+.aboutUs {
+	background: yellow;
+	text-align: center;
+}
+
+#contactsection {
+	padding-top: 10px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin-bottom: 20px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
